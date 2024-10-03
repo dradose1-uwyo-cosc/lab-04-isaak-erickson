@@ -1,17 +1,14 @@
-# Your Name Here
+# Isaak Erickson  
 # UWYO COSC 1010
 # Submission Date
 # Lab 03 
-# Lab Section: 
+# Lab Section:18 
 # Sources, people worked with, help given to: 
-# your
-# comments
-# here
+# your comments here
 
-
-
-# This is your second lab section. It will primarily be about working with lists
+#This is your second lab section. It will primarily be about working with lists
 # Complete all sections of this assignment 
+
 max_temps = [
     32, 24, 22, 25, 37, 33, 34, 40, 40, 42,
     35, 35, 47, 49, 37, 37, 35, 23, 26, 25,
@@ -102,4 +99,22 @@ min_temps = [
 # For the next part, determine the highest and lowest recorded temperatures.
 # HINT: You can find this information without using any logic or looping.
 
+sum_max_temps = 0
+sum_min_temps = 0
+count = len(max_temps) 
 
+for i in range(count):
+    sum_max_temps += max_temps[i]
+    sum_min_temps += min_temps[i]
+
+average_max_temp = sum_max_temps / count
+average_min_temp = sum_min_temps / count
+
+print(f"Average Maximum Temperature: {average_max_temp}")
+print(f"Average Minimum Temperature: {average_min_temp}")
+
+highest_max_temp = max(max_temps)
+lowest_min_temp = min(min_temps)
+
+print(f"Highest Recorded Maximum Temperature: {highest_max_temp}")
+print(f"Lowest Recorded Minimum Temperature: {lowest_min_temp}")
