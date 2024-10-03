@@ -3,7 +3,7 @@
 # Submission Date
 # Lab 03 
 # Lab Section:18 
-# Sources, people worked with, help given to: 
+# Sources, people worked with, help given to: Help from TA 
 # your comments here
 
 #This is your second lab section. It will primarily be about working with lists
